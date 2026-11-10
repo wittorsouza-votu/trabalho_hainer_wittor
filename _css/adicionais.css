@@ -1,0 +1,18 @@
+body{text-align: center;
+background-color: rgb(149, 80, 214);
+
+
+}
+.bord{
+     border: solid;
+    border-radius: 20px;
+    margin: 150px;
+    padding: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(143, 98, 185);
+}
+input{
+    width: 70px;
+}
