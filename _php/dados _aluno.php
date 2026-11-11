@@ -3,16 +3,18 @@ $nome = $_POST['nome'];
 $data = $_POST['data'];
 $endereco = $_POST['endereco'];
 $telefone = $_POST['tel'];
-$cpf = $_POST['cpf'];
-$telefone = $_POST['telefone'];
-$cep = $_POST['cep'];
+$input = $_POST['manha'];
+$input = $_POST['tarde'];
+$input = $_POST['pei'];
+$input = $_POST['cadastrar'];
 
 
-$linha = $nome . " | " . $endereço . " | " . $data. " | " . $endereco . " | " . $tel . " | " . $cpf . PHP_EOL;
+$linha = $nome . " | "  . $data. " | " . $endereco . " | " . $tel . " | " . $manha . " | " . $tarde . " | " . $pei . 
+" | " . $cadastrar . PHP_EOL;
 
-file_put_contents("cadastro.txt", $linha, FILE_APPEND);
+file_put_contents("cadastro1.txt", $linha, FILE_APPEND);
 
-header("Location: ../cadastroNota.html")
+header("Location: ../aluno.html");
 exit;
 ?>
 
