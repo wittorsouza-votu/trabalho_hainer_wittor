@@ -3,7 +3,7 @@ body{
     text-align: center;
 }
 .bord{
-      border: solid;
+      border: solid 6px;
     border-radius: 20px;
     margin: 150px;
     padding: 30px;

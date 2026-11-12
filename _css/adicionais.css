@@ -4,7 +4,7 @@ background-color: rgb(149, 80, 214);
 
 }
 .bord{
-     border: solid;
+     border: solid 6px;
     border-radius: 20px;
     margin: 150px;
     padding: 30px;
@@ -12,6 +12,7 @@ background-color: rgb(149, 80, 214);
     margin-right: 40%;
     color: rgb(0, 0, 0);
     background-color: rgb(143, 98, 185);
+    bo
 }
 input{
     width: 70px;
